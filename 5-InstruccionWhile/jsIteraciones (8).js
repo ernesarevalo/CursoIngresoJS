@@ -5,7 +5,7 @@ function Mostrar()
 	var neg=1;
 	var resp="si";
 	var num=0;
-while(resp=="si")
+while(resp.toLowerCase=="si")
 {
 	num=prompt("Ingrese el número");
 	num=parseInt(num);
