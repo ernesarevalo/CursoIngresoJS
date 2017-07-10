@@ -1,14 +1,27 @@
 function Mostrar()
 {
+	var cont=0;
+	var pos=0;
+	var neg=1;
+	var resp="si";
+	var num=0;
+while(resp=="si")
+{
+	num=prompt("Ingrese el número");
+	num=parseInt(num);
+	//validar si se quiere.
+	if(num>=0)
+	{
+		pos+=num;
+	}
+	else
+	{
+		neg*=num;
+	}
+	resp=prompt("Desea continuar?");
+}
 
-	var contador=0;
-	var positivo=0;
-	var negativo=1;
-	
-	var respuesta='si';
-
-
-document.getElementById('suma').value=positivo;
-document.getElementById('producto').value=negativo;
+document.getElementById('suma').value=pos;
+document.getElementById('producto').value=neg;
 
 }//FIN DE LA FUNCIÓN
