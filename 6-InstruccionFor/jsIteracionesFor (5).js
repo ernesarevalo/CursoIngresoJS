@@ -1,9 +1,12 @@
 function Mostrar()
 {
-num=prompt("Ingrese un numero, para finalizar ingrese 9");
-for( ; i != 9 ; )
+var num = prompt("Ingrese un número, para finalizar ingrese 9");
+for(; i != 9 ;)
 {
-  
+    if(num==9)
+    {
+        break;
+    }
 }
 
 }//FIN DE LA FUNCIÓN

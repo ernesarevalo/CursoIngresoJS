@@ -1,15 +1,14 @@
 function Mostrar()
 {
-num=prompt("Ingrese un número");
-for(i=1 ; i < 1000000 ; i++)
+var num = prompt("Ingrese un número");
+var cont = 0
+for(i=1; i <= num ; i++)        //valor ; condicion ; 
 {
-    alert(i);
-    if(i>=parseInt(num))
+    if(i%2==0)    //%2==0 para saber si es para
     {
-        break;
+        cont++;
+        alert(i);
     }
 }
-
-
-
+alert(cont);
 }//FIN DE LA FUNCIÓN

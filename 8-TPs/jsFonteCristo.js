@@ -9,5 +9,53 @@ e.	Se pedirán un número positivo y se mostrará la cantidad de números Primos
 */
 function ComenzarIngreso () 
 {
- 	
+}
+
+function NumerosPares()
+    {
+    var num = document.getElementById("numero").value;
+    var contpares = 0;
+      if(num<1)
+             {
+                alert("Ingrese Positivo");
+             }
+      else
+      {
+      }
+      for(i=1; i<=num; i++)
+      {
+          if(i%2==0)
+          {
+              contpares++;
+              alert(i);
+             
+          }
+     }
+      alert(contpares);
+     }
+function NumerosImpares()
+    {
+        var num = document.getElementById("numero").value;
+        var contimp = 0;
+        if(num<1)
+        {
+            alert("Ingrese positivo");
+        }
+        else
+        {
+            for(i=1; i<=num; i++)
+            {
+                if(i%2!=0)
+                {
+                    contimp++;
+                    alert(i);
+                }
+            }
+        }
+        alert(contimp);
+    }
+function NumerosDivisibles()
+{
+    var num = document.getSelection("numero").value;
+    var divi = 0
 }
